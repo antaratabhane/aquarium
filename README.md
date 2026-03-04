@@ -1,13 +1,14 @@
 # Aquarium – Interactive Fish Exploration 🐠
-
 **Aquarium** is an interactive web project built using **HTML, CSS, and Bootstrap 5** that simulates a realistic underwater environment. The interface presents a visually immersive aquarium scene where animated fish move naturally within a coral reef background, creating a dynamic and engaging user experience 🌊.
 
 The project aims to recreate the feeling of observing a real aquarium through a digital interface. By combining visual design, animation, and interactive elements, the environment becomes more than just a static webpage—it becomes a small interactive ecosystem where users can observe and explore aquatic life. <br> <br>
 
+## 🐠 Interactive Aquarium Preview 🌊
 <div align="center">
-  <img src="<img width="1902" height="909" alt="Screenshot 2026-03-04 205136" src="https://github.com/user-attachments/assets/522b19a2-d3de-46d9-bbf3-36522a324e0d" />
-" width="50%">
-</div>
+<img src="https://github.com/user-attachments/assets/f381a1bd-d712-44eb-bc51-dae397b8ca2e" 
+alt="Aquarium Preview"
+style="width:50%; height:auto;">
+</div> <br> <br>
 
 ## Explore the Aquarium 🌊
 
