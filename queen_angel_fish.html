@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #7b9acc;
+            }
+
+            .mainContainer{
+                width: 95vw;
+                height: 95vh;
+                box-sizing: border-box;
+                display: grid;
+                grid-template-rows: repeat(6, 100px);
+                grid-template-columns: repeat(14, 100px);
+            }
+
+            .item1{
+                grid-column: 1 / 6;
+                grid-row: 1 / 4;
+            }
+
+            div > img{
+                box-shadow: 10px 10px 5px black;
+                border-radius: 20px;
+                box-sizing: border-box;
+                background-color: white;
+                margin-left: 0;
+                border: 1px solid black;
+            }
+
+            div > img:hover{
+                transform: translateY(-5px) scale(1.01);
+            }
+
+            .item2{
+                grid-column: 6 / 14;
+                grid-row: 1 / 4;
+
+            }
+
+            .item3{
+                grid-column: 1 /14;
+                grid-row: 3 / 8;
+            }
+
+            .item2 > .table{
+                position: relative;
+                height: 80%;
+                width: 80%;
+                box-shadow: 10px 10px 5px black;
+                background-color: white;
+                color: #7b9acc;
+            }
+
+            table{
+                border: 2px solid black;
+            }
+
+            .text-indent{
+                text-indent: 5rem;
+                line-height: 1.5;
+                box-shadow: 10px 10px 5px black;
+                border-radius: 20px;
+                border: 1px solid black;
+                background-color: white;
+                color: #7b9acc;
+            }
+
+        </style>
+    </head>
+   <body>
+        <div class="container mainContainer">
+            <div class="item item1">
+                <img src="queen.png">
+            </div>
+            <div class="item item2">
+                <table class="table table-borderless fs-6 fw-bold">
+                    <tbody>
+                        <tr>
+                            <th colspan="2" class="text-center fs-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Queen Angel Fish</th>
+                        </tr>
+                        <tr>
+                            <td class="text-center align-middle">Kingdom: Animalia</td>
+                            <td class="text-center align-middle">Phylum: Chordata</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center align-middle">Class: Actinopterygii</td>
+                            <td class="text-center align-middle">Order: Acanthuriformes</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center align-middle">Family: Pomacanthidae</td>
+                            <td class="text-center align-middle">Subfamily: Pomacanthidae</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center align-middle">Genus: Holcanthus</td>
+                            <td class="text-center align-middle">Species: H. ciliaris</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="item item3 d-flex justify-content-center align-items-center">
+                <p class="text-indent container fs-6 ml-3 mr-3 p-3 fw-bold">
+                    The queen angelfish (Holacanthus ciliaris) is a stunning marine species found primarily in the coral reefs of the tropical western Atlantic, 
+                    ranging from Bermuda to Brazil and throughout the Caribbean. 
+                    Known for their vibrant blue and yellow coloration, these fish can grow up to 18 inches (45 cm) in length and weigh around three and a half pounds (1.6 kg). 
+                    They are characterized by a distinctive "crown" pattern above their eyes, which adds to their regal appearance. 
+                    Queen angelfish are non-migratory and typically inhabit shallow waters, where they feed on sponges, algae, 
+                    and other small invertebrates. Their striking beauty and unique behaviors make them a popular choice for aquarists, 
+                    although they require spacious tanks to thrive, especially as they mature. Conservation efforts are essential to protect their habitats, 
+                    as they play a vital role in maintaining the health of coral reef ecosystems.
+                    Queen angelfish exhibit fascinating behaviors and social structures. They are often found in pairs, 
+                    suggesting a long-term monogamous bond, and engage in elaborate courtship rituals during mating. The female can release thousands of eggs, 
+                    which are fertilized in the water column, leading to the hatching of larvae within 15 to 20 hours. These larvae initially lack developed eyes and fins but quickly adapt to their environment, 
+                    feeding on plankton and growing rapidly. As juveniles, they are known to establish cleaning stations, 
+                    where they remove parasites from larger fish, showcasing a unique symbiotic relationship within the reef ecosystem. 
+                    Their vibrant colors not only serve as a means of communication but also help them blend into the colorful coral surroundings, 
+                    providing camouflage against predators. The queen angelfish's role in the reef community is crucial, 
+                    as they contribute to the health of coral systems by feeding on sponges and algae, thus maintaining the balance of their habitat
+                </p>
+            </div>
+        </div>
+   </body> 
+</html>
